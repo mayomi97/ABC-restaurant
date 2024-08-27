@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.restaurant.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.restaurant.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReservationServlet</servlet-name>
+  	<display-name>ReservationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.restaurant.controller.ReservationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>QueryServlet</servlet-name>
+  	<display-name>QueryServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.restaurant.controller.QueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminProductServlet</servlet-name>
+  	<display-name>AdminProductServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.restaurant.controller.AdminProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminReportServlet</servlet-name>
+  	<display-name>AdminReportServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.restaurant.controller.AdminReportServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CartServlet</servlet-name>
+  	<display-name>CartServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.restaurant.controller.CartServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CheckoutServlet</servlet-name>
+  	<display-name>CheckoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.restaurant.controller.CheckoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReservationServlet</servlet-name>
+  	<url-pattern>/ReservationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>QueryServlet</servlet-name>
+  	<url-pattern>/QueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminProductServlet</servlet-name>
+  	<url-pattern>/AdminProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminReportServlet</servlet-name>
+  	<url-pattern>/AdminReportServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CartServlet</servlet-name>
+  	<url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CheckoutServlet</servlet-name>
+  	<url-pattern>/CheckoutServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
